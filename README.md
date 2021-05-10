@@ -2,8 +2,6 @@
 
 ## Enunciado do exercício
 
-Você deverá enviar um link do seu github com:
-
 * Formulário de Cadastro de clientes contendo
 - Nome
 - E-mail
@@ -24,5 +22,8 @@ Você deverá enviar um link do seu github com:
 
 ### Funções desenvolvidas: 
 
+- Cadastrar clientes e salvar seus dados 
+- Listar todos os clientes cadastrados 
+- Deletar dados cadastrados 
 
-
+###Obs:  
