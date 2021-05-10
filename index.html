@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud </title>
+    <link rel="stylesheet" href="./modelo/CSS/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="./modelo/fontawesome-free-5.15.3-web/css/svg-with-js.min.css">
+    <link rel="stylesheet" href="./modelo/fontawesome-free-5.15.3-web/css/all.css">
+
+</head>
+
+<body class="body">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>CRUD - Helpper
+                    <small>Formulário de Cadastro dos clientes</small>
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-primary float-right " data-toggle="modal" data-target="#modal-Registro">Adicionar Cadastro</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table id="table-dados" class="table table-hover table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">CPF ou CNPJ</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">CEP</th>
+                            <th scope="col">Logradouro</th>
+                            <th scope="col">Numero</th>
+                            <th scope="col">Bairro</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Estado</th>
+
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-Registro" tabindex="-1" aria-labelledby="modal-RegistroLabel" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-RegistroLabel">Cadastro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <form>
+
+                        <div class="form-group">
+                            <label class="nome-Primary" for="">Nome</label>
+                            <input id="txtNome" type="text" class="form-control" placeholder="digite o nome..." />
+                        </div>
+                        <div class="form-group">
+                            <label class="Email-Primary" for="">Email</label>
+                            <input id="txtEmail" type="text" class="form-control" placeholder="digite o email..." />
+                        </div>
+                        <div class="form-group">
+                            <label class="CPFouCNPJ-Primary" for="">CPF ou CNPJ</label>
+                            <input id="txtCPFouCNPJ" type="number" class="form-control" placeholder="digite o CPF ou CNPJ..." />
+                        </div>
+                        <div class="form-group">
+                            <label class="Telefone-Primary" for="">Telefone</label>
+                            <input id="txtTelefone" type="number" class="form-control" placeholder="digite o Telefone..." />
+                        </div>
+                        <div class="form-group">
+                            <label class="CEP-Primary" for="">CEP</label>
+                            <input id="txtCEP" type="number" class="form-control" placeholder="digite o CEP..." />
+                        </div>
+                        <div class="form-group">
+                            <label class="Logradouro-Primary" for="">Logradouro</label>
+                            <input id="txtLogradouro" type="text" class="form-control" placeholder="digite o Logradouro..." />
+                        </div>
+                        <div class="form-group">
+                            <label class="Numero-Primary" for="">Numero</label>
+                            <input id="txtNumero" type="number" class="form-control" placeholder="digite o numero..." />
+                        </div>
+                        <div class="form-group">
+                            <label class="Bairro-Primary" for="">Bairro</label>
+                            <input id="txtBairro" type="text" class="form-control" placeholder="digite o bairro..." />
+                        </div>
+                        <div class="form-group">
+                            <label class="Cidade-Primary" for="">Cidade</label>
+                            <input id="txtCidade" type="text" class="form-control" placeholder="digite o cidade..." />
+                        </div>
+                        <div class="form-group">
+                            <label class="Estado-Primary" for="">Estado</label>
+                            <input id="txtEstado" type="text" class="form-control" placeholder="digite o estado..." />
+                        </div>
+
+
+                    </form>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button id="btnSalvar" type="button" class="btn btn-primary">Salvar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    <script src="./modelo/JS/script.js"></script>
+</body>
+
+</html>

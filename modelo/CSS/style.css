@@ -1,0 +1,105 @@
+    .float-right {
+        float: right;
+    }
+    
+    .text-muted {
+        color: red;
+    }
+    
+    #table-dados {
+        margin-top: 20px;
+    }
+    
+    .body {
+        background-color: rgb(163, 163, 163);
+    }
+    
+    .Email-Primary {
+        margin-top: 20px;
+    }
+    
+    #txtNome {
+        width: 220px;
+    }
+    
+    #txtEmail {
+        width: 220px;
+    }
+    
+    .CPFouCNPJ-Primary {
+        margin-top: 20px;
+    }
+    
+    #txtCPFouCNPJ {
+        width: 220px;
+    }
+    
+    .Telefone-Primary {
+        margin-top: 20px;
+    }
+    
+    #txtTelefone {
+        width: 220px;
+    }
+    
+    .CEP-Primary {
+        margin-top: 20px;
+    }
+    
+    #txtCEP {
+        width: 220px;
+    }
+    
+    .Logradouro-Primary {
+        margin-top: 20px;
+    }
+    
+    #txtLogradouro {
+        width: 220px;
+    }
+    
+    .Numero-Primary {
+        margin-top: 20px;
+    }
+    
+    #txtNumero {
+        width: 220px;
+    }
+    
+    .Bairro-Primary {
+        margin-top: 20px;
+    }
+    
+    #txtBairro {
+        width: 220px;
+    }
+    
+    .Cidade-Primary {
+        margin-top: 20px;
+    }
+    
+    #txtCidade {
+        width: 220px;
+    }
+    
+    .Estado-Primary {
+        margin-top: 20px;
+    }
+    
+    #txtEstado {
+        width: 220px;
+    }
+    
+    .fa-edit {
+        width: 10px;
+    }
+    
+    .fa-trash {
+        width: 10px;
+    }
+    
+    .col-md-6 {
+        align-items: center;
+        display: inline;
+        list-style: none;
+    }
