@@ -26,5 +26,5 @@
 - Listar todos os clientes cadastrados 
 - Deletar dados cadastrados 
 
-### Dificuldades encontradas 
-### Ao adicionar as informações no formulario e salvar, o ID 1 se mantem statico e não é permitido excluir, porém os demais conseguem ser deletados 
+### Dificuldades encontradas: 
+Ao adicionar as informações no formulario e salvar, o ID 1 se mantem statico e não é permitido excluir, porém os demais conseguem ser deletados 
